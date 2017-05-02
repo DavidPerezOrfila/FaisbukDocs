@@ -1,0 +1,53 @@
+[[[[[ ~/myproject-docs ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+=> Meteor 1.4.4.1 is available. Update this project with 'meteor update'.
+=> Started your app.
+
+=> App running at: http://localhost:3333/
+=> Client modified -- refreshing
+[34mI20170502-20:24:16.678(2)? [39mException from task: Error: ENOENT, open '../web.browser/head.html'
+[34mI20170502-20:24:16.679(2)? [39m    at Object.Future.wait (/home/david/.meteor/packages/meteor-tool/.1.3.0_3.17ecgy++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:420:15)
+[34mI20170502-20:24:16.679(2)? [39m    at packages/meteor.js:213:24
+[34mI20170502-20:24:16.680(2)? [39m    at readUtf8FileSync (packages/boilerplate-generator.js:31:39)
+[34mI20170502-20:24:16.680(2)? [39m    at packages/boilerplate-generator.js:106:11
+[34mI20170502-20:24:16.680(2)? [39m    at Array.forEach (native)
+[34mI20170502-20:24:16.680(2)? [39m    at Function._.each._.forEach (packages/underscore.js:139:11)
+[34mI20170502-20:24:16.680(2)? [39m    at [object Object].Boilerplate._generateBoilerplateFromManifestAndSource (packages/boilerplate-generator.js:88:7)
+[34mI20170502-20:24:16.681(2)? [39m    at new Boilerplate (packages/boilerplate-generator.js:41:8)
+[34mI20170502-20:24:16.681(2)? [39m    at Object.WebAppInternals.generateBoilerplateInstance (packages/webapp/webapp_server.js:293:10)
+[34mI20170502-20:24:16.681(2)? [39m    at packages/webapp/webapp_server.js:567:27
+[34mI20170502-20:24:16.681(2)? [39m    - - - - -
+[34mI20170502-20:24:16.913(2)? [39mException in queued task: Error: ENOENT, open '../web.browser/head.html'
+[34mI20170502-20:24:16.913(2)? [39m    at Object.Future.wait (/home/david/.meteor/packages/meteor-tool/.1.3.0_3.17ecgy++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:420:15)
+[34mI20170502-20:24:16.913(2)? [39m    at [object Object]._.extend.runTask (packages/meteor.js:734:9)
+[34mI20170502-20:24:16.914(2)? [39m    at Object.WebAppInternals.generateBoilerplate (packages/webapp/webapp_server.js:564:15)
+[34mI20170502-20:24:16.914(2)? [39m    at updateVersions (packages/autoupdate.js:117:21)
+[34mI20170502-20:24:16.914(2)? [39m    at Object.task (packages/autoupdate.js:210:5)
+[34mI20170502-20:24:16.914(2)? [39m    at [object Object]._.extend._run (packages/meteor.js:800:18)
+[34mI20170502-20:24:16.914(2)? [39m    at packages/meteor.js:778:14
+[34mI20170502-20:24:16.914(2)? [39m    - - - - -
+=> Client modified -- refreshing
+[34mI20170502-20:50:04.834(2)? [39mException from task: Error: ENOENT, open '../web.browser/head.html'
+[34mI20170502-20:50:04.834(2)? [39m    at Object.Future.wait (/home/david/.meteor/packages/meteor-tool/.1.3.0_3.17ecgy++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:420:15)
+[34mI20170502-20:50:04.834(2)? [39m    at packages/meteor.js:213:24
+[34mI20170502-20:50:04.834(2)? [39m    at readUtf8FileSync (packages/boilerplate-generator.js:31:39)
+[34mI20170502-20:50:04.835(2)? [39m    at packages/boilerplate-generator.js:106:11
+[34mI20170502-20:50:04.835(2)? [39m    at Array.forEach (native)
+[34mI20170502-20:50:04.835(2)? [39m    at Function._.each._.forEach (packages/underscore.js:139:11)
+[34mI20170502-20:50:04.835(2)? [39m    at [object Object].Boilerplate._generateBoilerplateFromManifestAndSource (packages/boilerplate-generator.js:88:7)
+[34mI20170502-20:50:04.836(2)? [39m    at new Boilerplate (packages/boilerplate-generator.js:41:8)
+[34mI20170502-20:50:04.836(2)? [39m    at Object.WebAppInternals.generateBoilerplateInstance (packages/webapp/webapp_server.js:293:10)
+[34mI20170502-20:50:04.836(2)? [39m    at packages/webapp/webapp_server.js:567:27
+[34mI20170502-20:50:04.836(2)? [39m    - - - - -
+[34mI20170502-20:50:04.840(2)? [39mException in queued task: Error: ENOENT, open '../web.browser/head.html'
+[34mI20170502-20:50:04.840(2)? [39m    at Object.Future.wait (/home/david/.meteor/packages/meteor-tool/.1.3.0_3.17ecgy++os.linux.x86_64+web.browser+web.cordova/mt-os.linux.x86_64/dev_bundle/server-lib/node_modules/fibers/future.js:420:15)
+[34mI20170502-20:50:04.840(2)? [39m    at [object Object]._.extend.runTask (packages/meteor.js:734:9)
+[34mI20170502-20:50:04.841(2)? [39m    at Object.WebAppInternals.generateBoilerplate (packages/webapp/webapp_server.js:564:15)
+[34mI20170502-20:50:04.841(2)? [39m    at updateVersions (packages/autoupdate.js:117:21)
+[34mI20170502-20:50:04.841(2)? [39m    at Object.task (packages/autoupdate.js:210:5)
+[34mI20170502-20:50:04.841(2)? [39m    at [object Object]._.extend._run (packages/meteor.js:800:18)
+[34mI20170502-20:50:04.841(2)? [39m    at packages/meteor.js:778:14
+[34mI20170502-20:50:04.841(2)? [39m    - - - - -
+=> Server modified -- restarting...                                   => Meteor server restarted
